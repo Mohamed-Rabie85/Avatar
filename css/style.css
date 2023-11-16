@@ -1,0 +1,100 @@
+*{
+    font-family: 'toruksc', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+body{
+    background-image: linear-gradient(to right, #01022d , #000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-image: 
+    linear-gradient(to right, #01022de5 30%, #0000009b),
+    url(../images/avat.webp)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 640px;
+}
+
+.container:hover{
+    background-image:
+            linear-gradient(to right, #01022de5 35%, transparent),
+            url(../images/avat.webp);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    border-bottom: 2px solid transparent;
+}
+
+ul a:hover{
+    border-bottom-color: white ;
+}
+
+
+.contant{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.contant h2{
+    font-size: 120px;
+    letter-spacing: px;
+}
+
+.contant p{
+    letter-spacing: 3px;
+    line-height: 20px;
+    word-spacing: 5px;
+    width: 350px;
+    padding: 20px 0 ;
+    text-align: center;
+}
+
+.contant button{
+    font-size: 25px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.contant button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
